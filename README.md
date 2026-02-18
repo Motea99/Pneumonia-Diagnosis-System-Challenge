@@ -1,7 +1,9 @@
+# End-to-End Medical AI System for Pneumonia Detection
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([ÿ∂ÿπ_ŸáŸÜÿß_ÿ±ÿßÿ®ÿ∑_ÿßŸÑŸÉŸàŸÑÿßÿ®](https://colab.research.google.com/github/Motea99/Pneumonia-Diagnosis-System-Challenge/blob/main/End_to_End_Demo1.ipynb))
 Medical AI Pneumonia Diagnosis System
 
 End-to-End Deep Learning, Visual Language Model, and Retrieval Prototype
-AlfaisalX: Cognitive Robotics & Autonomous Agents ñ Technical Challenge
+AlfaisalX: Cognitive Robotics & Autonomous Agents ‚Äì Technical Challenge
 
 ---
 
@@ -24,10 +26,10 @@ The system was developed using the PneumoniaMNIST dataset (MedMNIST v2) and impl
 
 Given a chest X-ray image, the system can:
 
-ï Detect whether pneumonia is suspected
-ï Visualize important regions using Explainable AI (Grad-CAM)
-ï Generate an automatic medical report using a visual-language model
-ï Retrieve visually similar X-ray cases from the dataset
+‚Ä¢ Detect whether pneumonia is suspected
+‚Ä¢ Visualize important regions using Explainable AI (Grad-CAM)
+‚Ä¢ Generate an automatic medical report using a visual-language model
+‚Ä¢ Retrieve visually similar X-ray cases from the dataset
 
 This mimics a simplified real-world clinical workflow.
 
@@ -38,10 +40,10 @@ This mimics a simplified real-world clinical workflow.
 Dataset: PneumoniaMNIST (MedMNIST v2)
 
 - Binary classification: Normal vs Pneumonia
-- Training images ò 4,700
-- Validation images ò 500
-- Test images ò 600
-- Image size: 28◊28 grayscale
+- Training images Àú 4,700
+- Validation images Àú 500
+- Test images Àú 600
+- Image size: 28√ó28 grayscale
 
 Install automatically:
 
@@ -51,7 +53,7 @@ Official website: https://medmnist.com
 
 ---
 
-4. Model Architecture (Task 1 ñ Classification)
+4. Model Architecture (Task 1 ‚Äì Classification)
 
 We used a Vision Transformer (ViT) as the primary classifier.
 
@@ -94,7 +96,7 @@ The model mainly focused on lung opacity regions in pneumonia cases, indicating 
 
 ---
 
-6. Medical Report Generation (Task 2 ñ VLM)
+6. Medical Report Generation (Task 2 ‚Äì VLM)
 
 A visual-language model (LLaVA / Med-style prompting) was used to automatically produce a radiology-style report.
 
@@ -107,11 +109,11 @@ and outputs a natural language medical description including suspicion of pneumo
 
 Sample prompt:
 
-´"You are a radiologist. Analyze this chest X-ray and write a concise medical report. State if pneumonia is suspected."ª
+¬´"You are a radiologist. Analyze this chest X-ray and write a concise medical report. State if pneumonia is suspected."¬ª
 
 ---
 
-7. Semantic Image Retrieval (Task 3 ñ CBIR)
+7. Semantic Image Retrieval (Task 3 ‚Äì CBIR)
 
 A content-based image retrieval system is implemented using image embeddings and vector similarity search (FAISS).
 
@@ -121,14 +123,14 @@ Capabilities:
 - Retrieval of most similar cases
 - Visualization of top-k matches
 
-This simulates a clinical ìsimilar casesî reference system.
+This simulates a clinical ‚Äúsimilar cases‚Äù reference system.
 
 ---
 
 8. Repository Structure
 
 medical-ai-pneumonia-diagnosis-system/
-¶
+¬¶
 +-- models/                     # Saved trained model
 +-- notebooks/                  # Colab demo notebook
 +-- task1_classification/       # Training and evaluation
@@ -182,5 +184,6 @@ Researcher in Medical AI & Biomedical Engineering
 12. Notes
 
 This repository was developed as part of a Postdoctoral Technical Challenge at Alfaisal University (MedX Research Unit).
+
 
 The code is intended for research and educational purposes only and not for clinical diagnosis.
