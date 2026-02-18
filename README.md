@@ -176,7 +176,7 @@ This project demonstrates:
 
 11. Author
 
-Motea Alsamawi
+Dr. Motea Alsamawi
 Researcher in Medical AI & Biomedical Engineering
 
 ---
@@ -187,5 +187,6 @@ This repository was developed as part of a Postdoctoral Technical Challenge at A
 
 
 The code is intended for research and educational purposes only and not for clinical diagnosis.
+
 
 
