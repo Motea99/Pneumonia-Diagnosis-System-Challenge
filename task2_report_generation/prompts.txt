@@ -1,0 +1,3 @@
+"USER: You are a radiologist. Analyze this chest X-ray and write a short medical report. State if pneumonia is suspected.\nASSISTANT:",
+    "USER: <image>\nYou are a radiologist. Analyze this chest X-ray and write a short medical report. State if pneumonia is suspected.\nASSISTANT:",
+    "Analyze this chest X-ray and write a short medical report. State if pneumonia is suspected."
