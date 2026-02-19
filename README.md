@@ -1,5 +1,5 @@
 # End-to-End Medical AI System for Pneumonia Detection
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Motea99/Pneumonia-Diagnosis-System-Challenge/blob/main/End%20To%20End%20Demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Motea99/Pneumonia-Diagnosis-System-Challenge/blob/main/MAI_End_To_End_Demo.ipynb)
 Medical AI Pneumonia Diagnosis System
 
 End-to-End Deep Learning, Visual Language Model, and Retrieval Prototype
@@ -187,6 +187,7 @@ This repository was developed as part of a Postdoctoral Technical Challenge at A
 
 
 The code is intended for research and educational purposes only and not for clinical diagnosis.
+
 
 
 
