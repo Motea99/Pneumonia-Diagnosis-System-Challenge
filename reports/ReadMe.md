@@ -35,8 +35,8 @@ The architecture simulates a clinical workflow through three stages:
 3.  **Explainability:** **Grad-CAM** generates a heatmap highlighting pathological regions.
 4.  **Report Generation:** A **Medical Visual Language Model (VLM)** produces a textual radiology report.
 
-> **Figure 1: Proposed End-to-End Medical AI Pipeline** > ![System Architecture](images/architecture_diagram.png) *(Ensure your image path is correct)*
-
+> **Figure 1: Proposed End-to-End Medical AI Pipeline**
+> ![System Architecture](Images/AI_Pipe_Line.jpg)
 ---
 
 # **Task 1 — Pneumonia Classification**
