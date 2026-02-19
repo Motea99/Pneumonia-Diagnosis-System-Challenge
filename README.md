@@ -188,6 +188,9 @@ This repository was developed as part of a Postdoctoral Technical Challenge at A
 
 The code is intended for research and educational purposes only and not for clinical diagnosis.
 
+![Confusion Matrix](Images/confusion_matrix.jpg)
+
+
 
 
 
