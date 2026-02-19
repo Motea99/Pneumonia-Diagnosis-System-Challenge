@@ -105,6 +105,7 @@ The model demonstrates a **conservative diagnostic strategy**:
 * **Clinical Validity:** Attention heatmaps align with radiologically meaningful opacities rather than background noise.
 * **Reliability:** The model’s decision-making process is transparent, enhancing trust between the AI and the radiologist.
 
-> **Visual Evidence:** > ![Grad-CAM Examples](Images/gradcam_examples.jpg) *(Ensure your image path is correct)*
+**Visual Evidence:**
+![Grad-CAM Examples](Images/XAI.jpg)
 
 ---
