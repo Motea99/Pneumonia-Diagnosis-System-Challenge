@@ -37,6 +37,7 @@ The architecture simulates a clinical workflow through three stages:
 
 > **Figure 1: Proposed End-to-End Medical AI Pipeline**
 > ![System Architecture](Images/AI_Pipe_Line.jpg)
+> ![System Architecture](https://raw.githubusercontent.com/Motea99/Pneumonia-Diagnosis-System-Challenge/main/Images/AI_Pipe_Line.jpg)
 ---
 
 # **Task 1 — Pneumonia Classification**
