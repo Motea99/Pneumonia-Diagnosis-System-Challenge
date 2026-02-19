@@ -156,7 +156,7 @@ medical-ai-pneumonia-diagnosis-system/
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/medical-ai-pneumonia-diagnosis-system.git
+git clone https://github.com/Motea99/medical-ai-pneumonia-diagnosis-system.git
 cd medical-ai-pneumonia-diagnosis-system
 
 ```
@@ -198,6 +198,7 @@ This project demonstrates:
 This repository was developed as part of a **Postdoctoral Technical Challenge** at Alfaisal University (**MedX Research Unit**).
 
 > **Disclaimer:** The code is intended for research and educational purposes only and not for clinical diagnosis.
+
 
 
 
