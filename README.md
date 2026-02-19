@@ -171,7 +171,7 @@ pip install -r requirements.txt
 ### 3. Run demo notebook
 
 Open:
-`notebooks/End_to_End_Demo.ipynb`
+`notebooks/MAI_End_To_End_Demo.ipynb`
 or run directly in Google Colab.
 
 ---
@@ -198,6 +198,7 @@ This project demonstrates:
 This repository was developed as part of a **Postdoctoral Technical Challenge** at Alfaisal University (**MedX Research Unit**).
 
 > **Disclaimer:** The code is intended for research and educational purposes only and not for clinical diagnosis.
+
 
 
 
