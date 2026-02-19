@@ -1,28 +1,20 @@
 # End-to-End Medical AI System for Pneumonia Detection
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Motea99/Pneumonia-Diagnosis-System-Challenge/blob/main/MAI_End_To_End_Demo.ipynb)
-بالطبع 👌
-هذا هو النص نفسه **بدون أي حذف أو إضافة** فقط تم تنسيقه باحتراف بصيغة Markdown وجاهز للنسخ واللصق داخل `README.md`:
-
----
-
-````markdown
 # Medical AI Pneumonia Diagnosis System
 
 ## End-to-End Deep Learning, Visual Language Model, and Retrieval Prototype
-
 **AlfaisalX: Cognitive Robotics & Autonomous Agents – Technical Challenge**
 
 ---
 
-## 1. Project Overview
+1. Project Overview
 
 This project presents a complete end-to-end Artificial Intelligence system for automated analysis of chest X-ray images.
-
 The system integrates three modern AI components:
 
-- Image classification (diagnosis)  
-- Medical report generation (radiology-style text)  
-- Content-based image retrieval (similar case search)  
+Image classification (diagnosis)
+Medical report generation (radiology-style text)
+Content-based image retrieval (similar case search)
 
 The objective is not only to train a neural network, but to demonstrate how multiple AI technologies can be combined into a functional medical decision-support prototype.
 
@@ -30,38 +22,33 @@ The system was developed using the **PneumoniaMNIST dataset (MedMNIST v2)** and 
 
 ---
 
-## 2. System Capabilities
+2. System Capabilities
 
 Given a chest X-ray image, the system can:
 
-- Detect whether pneumonia is suspected  
-- Visualize important regions using Explainable AI (Grad-CAM)  
-- Generate an automatic medical report using a visual-language model  
-- Retrieve visually similar X-ray cases from the dataset  
+Detect whether pneumonia is suspected
+Visualize important regions using Explainable AI (Grad-CAM)
+Generate an automatic medical report using a visual-language model
+Retrieve visually similar X-ray cases from the dataset
 
 This mimics a simplified real-world clinical workflow.
 
 ---
 
-## 3. Dataset
+3. Dataset
 
-- **Dataset:** PneumoniaMNIST (MedMNIST v2)  
-- **Binary classification:** Normal vs Pneumonia  
-- **Training images:** ~4,700  
-- **Validation images:** ~500  
-- **Test images:** ~600  
-- **Image size:** 28×28 grayscale  
+Dataset: PneumoniaMNIST (MedMNIST v2)
+
+Binary classification: Normal vs Pneumonia
+Training images ˜ 4,700
+Validation images ˜ 500
+Test images ˜ 600
+Image size: 28×28 grayscale
 
 Install automatically:
 
 ```bash
 pip install medmnist
-````
-
-Official website: [https://medmnist.com](https://medmnist.com)
-
----
-
 ## 4. Model Architecture (Task 1 – Classification)
 
 We used a Vision Transformer (ViT) as the primary classifier.
@@ -205,5 +192,6 @@ Researcher in Medical AI & Biomedical Engineering
 This repository was developed as part of a Postdoctoral Technical Challenge at Alfaisal University (MedX Research Unit).
 
 **Disclaimer:** The code is intended for research and educational purposes only and not for clinical diagnosis.
+
 
 
