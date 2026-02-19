@@ -10,6 +10,8 @@ Match #1: Case ID 123
  - Historical Diagnosis: Normal
  - Visual Similarity Score: 100.00%
  - Clinical Reasoning: Similarities found in clear lung fields and sharp costophrenic angles.
+
+   
 Match #2: Case ID 131
  - Historical Diagnosis: Normal
  - Visual Similarity Score: 85.84%
