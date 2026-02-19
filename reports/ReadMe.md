@@ -119,3 +119,21 @@ This behavior indicates that the model learned a conservative diagnostic strateg
 Several factors may explain these errors. First, the PneumoniaMNIST images are low-resolution (28×28), which removes fine anatomical details and forces the model to rely on coarse texture patterns rather than clear radiological structures. Second, variations in illumination and rib-shadow intensity can mimic opacities associated with pneumonia. Third, the class distribution and the use of contrast enhancement (CLAHE) amplify subtle density differences, which improves sensitivity but may also increase false positives.
 
 Overall, the model behaves as a high-recall screening system rather than a strict diagnostic classifier. It is therefore more suitable as an early detection assistant that flags suspicious cases for further review by a clinician. Future improvements could focus on increasing specificity by incorporating higher-resolution images, lung region segmentation, or hybrid clinical features to reduce over-sensitivity to benign structural variations.
+
+XAI Interpretation – Grad-CAM Analysis
+
+The Grad-CAM visualizations demonstrate that the Vision Transformer model focuses predominantly on anatomically relevant pulmonary regions when predicting pneumonia.
+
+Across the presented samples:
+
+The attention maps highlight the lower lung zones and perihilar regions, which are clinically common locations for pneumonic infiltrates.
+
+In samples with suspected pneumonia, the model concentrates on areas showing increased opacity and patchy consolidations.
+
+The activation heatmaps align with radiologically meaningful structures rather than irrelevant regions (e.g., borders, background, labels), suggesting that the model learned clinically valid spatial patterns.
+
+The attention is bilaterally distributed in some cases, consistent with diffuse or multifocal infection patterns.
+
+These findings indicate that the model's decision-making process is not random but anatomically grounded, enhancing the interpretability and clinical reliability of the system.
+
+Overall, the Grad-CAM results support that the ViT-based classifier captures pathologically significant radiographic features associated with pneumonia.
