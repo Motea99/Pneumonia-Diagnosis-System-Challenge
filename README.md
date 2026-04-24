@@ -1,4 +1,4 @@
-# End-to-End Medical AI System for Pneumonia Detection
+# X-ViT: Explainable Vision Transformer System for End-to-End Pneumonia Detection (XAI)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Motea99/Pneumonia-Diagnosis-System-Challenge/blob/main/MAI_End_To_End_Demo.ipynb)
 
 # Medical AI Pneumonia Diagnosis System
