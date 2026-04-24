@@ -88,10 +88,10 @@ We used a **Vision Transformer (ViT)** as the primary classifier.
 
 | Metric | Value |
 | --- | --- |
-| **Accuracy** | 86.38% |
-| **Precision** | 82.24% |
+| **Accuracy** | 91.51% |
+| **Precision** | 88.21% |
 | **Recall** | 99.74% |
-| **F1-Score** | 90.15% |
+| **F1-Score** | 93.62% |
 
 ---
 
